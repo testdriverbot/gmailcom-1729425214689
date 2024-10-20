@@ -1,0 +1,252 @@
+version: 4.0.70
+steps:
+  - prompt: Click on "Sign in".
+    commands:
+      - command: hover-text
+        text: Sign in
+        description: sign in link in the header
+        action: click
+  - prompt: Assert that the sign-in page loads.
+    commands:
+      - command: assert
+        expect: the sign-in page is displayed with an email input field
+  - prompt: Attempt to sign in with test credentials.
+    commands:
+      - command: hover-text
+        text: Email or phone
+        description: email input field
+        action: click
+      - command: type
+        text: testuser@example.com
+      - command: hover-text
+        text: Next
+        description: next button
+        action: click
+      - command: wait
+        timeout: 2000
+      - command: hover-text
+        text: Enter your password
+        description: password input field
+        action: click
+      - command: type
+        text: TestPassword123
+      - command: hover-text
+        text: Next
+        description: next button
+        action: click
+  - prompt: Attempt to sign in with test credentials.
+    commands:
+      - command: hover-text
+        text: Email or phone
+        description: email input field
+        action: click
+      - command: type
+        text: testuser@example.com
+      - command: hover-text
+        text: Next
+        description: next button
+        action: click
+      - command: wait
+        timeout: 2000
+      - command: hover-text
+        text: Enter your password
+        description: password input field
+        action: click
+      - command: type
+        text: TestPassword123
+      - command: hover-text
+        text: Next
+        description: next button
+        action: click
+  - prompt: Attempt to sign in with test credentials.
+    commands:
+      - command: hover-text
+        text: Email or phone
+        description: email input field
+        action: click
+      - command: type
+        text: testuser@example.com
+      - command: hover-text
+        text: Next
+        description: next button
+        action: click
+      - command: wait
+        timeout: 2000
+      - command: hover-text
+        text: Enter your password
+        description: password input field
+        action: click
+      - command: type
+        text: TestPassword123
+      - command: hover-text
+        text: Next
+        description: next button
+        action: click
+  - prompt: Attempt to sign in with test credentials.
+    commands:
+      - command: hover-text
+        text: Email or phone
+        description: email input field
+        action: click
+      - command: type
+        text: testuser@example.com
+      - command: hover-text
+        text: Next
+        description: next button
+        action: click
+      - command: wait
+        timeout: 2000
+      - command: hover-text
+        text: Enter your password
+        description: password input field
+        action: click
+      - command: type
+        text: TestPassword123
+      - command: hover-text
+        text: Next
+        description: next button
+        action: click
+  - prompt: Attempt to sign in with test credentials.
+    commands:
+      - command: hover-text
+        text: Email or phone
+        description: email input field
+        action: click
+      - command: type
+        text: testuser@example.com
+      - command: hover-text
+        text: Next
+        description: next button
+        action: click
+      - command: wait
+        timeout: 2000
+      - command: hover-text
+        text: Enter your password
+        description: password input field
+        action: click
+      - command: type
+        text: TestPassword123
+      - command: hover-text
+        text: Next
+        description: next button
+        action: click
+  - prompt: Attempt to sign in with test credentials.
+    commands:
+      - command: hover-text
+        text: Email or phone
+        description: email input field
+        action: click
+      - command: type
+        text: testuser@example.com
+      - command: hover-text
+        text: Next
+        description: next button
+        action: click
+      - command: wait
+        timeout: 2000
+      - command: hover-text
+        text: Enter your password
+        description: password input field
+        action: click
+      - command: type
+        text: TestPassword123
+      - command: hover-text
+        text: Next
+        description: next button
+        action: click
+  - prompt: Attempt to sign in with test credentials.
+    commands:
+      - command: hover-text
+        text: Email or phone
+        description: email input field
+        action: click
+      - command: type
+        text: testuser@example.com
+      - command: hover-text
+        text: Next
+        description: next button
+        action: click
+      - command: wait
+        timeout: 2000
+      - command: hover-text
+        text: Enter your password
+        description: password input field
+        action: click
+      - command: type
+        text: TestPassword123
+      - command: hover-text
+        text: Next
+        description: next button
+        action: click
+  - prompt: Attempt to sign in with test credentials.
+    commands:
+      - command: hover-text
+        text: Email or phone
+        description: email input field
+        action: click
+      - command: type
+        text: testuser@example.com
+      - command: hover-text
+        text: Next
+        description: next button
+        action: click
+      - command: wait
+        timeout: 2000
+      - command: hover-text
+        text: Enter your password
+        description: password input field
+        action: click
+      - command: type
+        text: TestPassword123
+      - command: hover-text
+        text: Next
+        description: next button
+        action: click
+  - prompt: Attempt to sign in with test credentials.
+    commands:
+      - command: hover-text
+        text: Email or phone
+        description: email input field
+        action: click
+      - command: type
+        text: testuser@example.com
+      - command: hover-text
+        text: Next
+        description: next button
+        action: click
+      - command: wait
+        timeout: 2000
+      - command: hover-text
+        text: Enter your password
+        description: password input field
+        action: click
+      - command: type
+        text: TestPassword123
+      - command: hover-text
+        text: Next
+        description: next button
+        action: click
+  - prompt: Attempt to sign in with test credentials.
+    commands:
+      - command: hover-text
+        text: Email or phone
+        description: email input field
+        action: click
+      - command: type
+        text: testuser@example.com
+      - command: hover-text
+        text: Next
+        description: next button
+        action: click
+      - command: wait
+        timeout: 2000
+      - command: hover-text
+        text: Enter your password
+        description: password input field
+        action: click
+      - command: type
+        text: TestPassword123
+      - command: hover-text
+        text: Next
+        description: next button
+        action: click
