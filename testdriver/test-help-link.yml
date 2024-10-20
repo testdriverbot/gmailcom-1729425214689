@@ -1,0 +1,45 @@
+version: 4.0.70
+steps:
+  - prompt: Scroll down to find the "Help" link.
+    commands:
+      - command: scroll-until-text
+        text: Help
+        direction: down
+  - prompt: Scroll down to find the "Help" link.
+    commands:
+      - command: scroll-until-text
+        text: Help
+        direction: down
+  - prompt: Scroll down to find the "Help" link.
+    commands:
+      - command: scroll-until-text
+        text: Help
+        direction: down
+  - prompt: Scroll down to find the "Help" link.
+    commands:
+      - command: scroll-until-text
+        text: Help
+        direction: down
+  - prompt: Scroll down to find the "Help" link.
+    commands:
+      - command: scroll-until-text
+        text: Help
+        direction: down
+  - prompt: Click on the "Help" link.
+    commands:
+      - command: hover-text
+        text: Help Center
+        description: link to the help center
+        action: click
+  - prompt: Assert that the help page or support portal loads.
+    commands:
+      - command: assert
+        expect: the help page is loaded with "How can we help you?" visible
+  - prompt: >-
+      Verify the presence of help or support articles.  # Use the content of the
+      file from the environment
+    commands:
+      - command: assert
+        expect: >-
+          the presence of help or support articles like "Sign in to Gmail" is
+          visible
