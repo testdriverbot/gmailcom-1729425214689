@@ -1,0 +1,20 @@
+version: 4.0.70
+steps:
+  - prompt: Click on "For work" in the header.
+    commands:
+      - command: hover-text
+        text: For work
+        description: link in the header
+        action: click
+  - prompt: Assert that the work-related page loads.
+    commands:
+      - command: assert
+        expect: the page shows Google Workspace content
+  - prompt: >-
+      Verify the presence of work-related features or offers.  # Use the content
+      of the file from the environment
+    commands:
+      - command: assert
+        expect: >-
+          the page shows work-related features or offers like "Admin console"
+          and "Contact sales"
