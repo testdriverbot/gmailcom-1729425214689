@@ -1,0 +1,50 @@
+version: 4.0.70
+steps:
+  - prompt: Scroll down to find the "Contact Us" link.
+    commands:
+      - command: scroll-until-text
+        text: Contact Us
+        direction: down
+  - prompt: Scroll down to find the "Contact Us" link.
+    commands:
+      - command: scroll-until-text
+        text: Contact Us
+        direction: down
+  - prompt: Scroll down to find the "Contact Us" link.
+    commands:
+      - command: scroll-until-text
+        text: Contact Us
+        direction: down
+  - prompt: Scroll down to find the "Contact Us" link.
+    commands:
+      - command: scroll-until-text
+        text: Contact Us
+        direction: down
+  - prompt: Scroll down to find the "Contact Us" link.
+    commands:
+      - command: scroll-until-text
+        text: Contact Us
+        direction: down
+  - prompt: Scroll down to find the "Contact Us" link.
+    commands:
+      - command: scroll-until-text
+        text: Contact Us
+        direction: down
+  - prompt: Scroll down to find the "Contact Us" link.
+    commands:
+      - command: scroll-until-text
+        text: Contact Us
+        direction: down
+  - prompt: Scroll down to find the "Contact Us" link.
+    commands:
+      - command: scroll-until-text
+        text: Contact Us
+        direction: down
+  - prompt: Scroll down to find the "Contact Us" link.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Scroll down to find the "Contact Us" link.
+    commands:
+      - command: scroll
+        direction: down
