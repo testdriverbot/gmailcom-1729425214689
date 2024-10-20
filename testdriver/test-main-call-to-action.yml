@@ -1,0 +1,62 @@
+version: 4.0.70
+steps:
+  - prompt: Click on "Create an account".
+    commands:
+      - command: hover-text
+        text: Create an account
+        description: button to create a new account
+        action: click
+  - prompt: Click on "Create an account".
+    commands:
+      - command: hover-text
+        text: Create an account
+        description: button to create a new account
+        action: click
+  - prompt: Click on "Create an account".
+    commands:
+      - command: hover-text
+        text: Create an account
+        description: button to create a new account
+        action: click
+  - prompt: Click on "Create an account".
+    commands:
+      - command: hover-text
+        text: Create an account
+        description: button to create a new account
+        action: click
+  - prompt: Click on "Create an account".
+    commands:
+      - command: hover-text
+        text: Create an account
+        description: button to create a new account
+        action: click
+  - prompt: Click on "Create an account".
+    commands:
+      - command: hover-text
+        text: Create an account
+        description: button to create a new account
+        action: click
+  - prompt: Click on "Create an account".
+    commands:
+      - command: hover-text
+        text: Create an account
+        description: button to create a new account
+        action: click
+  - prompt: Click on "Create an account".
+    commands:
+      - command: hover-text
+        text: Create an account
+        description: button to create a new account
+        action: click
+  - prompt: Click on "Create an account".
+    commands:
+      - command: hover-text
+        text: Create an account
+        description: button to create a new account
+        action: click
+  - prompt: Click on "Create an account".
+    commands:
+      - command: hover-text
+        text: Create an account
+        description: button to create a new account
+        action: click
