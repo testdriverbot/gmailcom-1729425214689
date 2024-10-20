@@ -1,0 +1,16 @@
+version: 4.0.70
+steps:
+  - prompt: Verify that the Gmail logo is visible on the homepage.
+    commands:
+      - command: hover-text
+        text: Gmail
+        description: Gmail logo on the homepage
+        action: hover
+      - command: assert
+        expect: the Gmail logo is visible
+  - prompt: >-
+      Assert that no errors are displayed.  # Use the content of the file from
+      the environment
+    commands:
+      - command: assert
+        expect: no error messages are visible
