@@ -1,0 +1,83 @@
+version: 4.0.70
+steps:
+  - prompt: Locate the language selection option.
+    commands:
+      - command: scroll-until-text
+        text: Language
+        direction: down
+  - prompt: Locate the language selection option.
+    commands:
+      - command: scroll-until-text
+        text: Language
+        direction: up
+  - prompt: Locate the language selection option.
+    commands:
+      - command: scroll-until-text
+        text: Language
+        direction: down
+  - prompt: Locate the language selection option.
+    commands:
+      - command: scroll-until-text
+        text: Language
+        direction: down
+  - prompt: Locate the language selection option.
+    commands:
+      - command: scroll-until-text
+        text: Language
+        direction: down
+  - prompt: Locate the language selection option.
+    commands:
+      - command: scroll-until-text
+        text: Language
+        direction: down
+  - prompt: Locate the language selection option.
+    commands:
+      - command: scroll-until-text
+        text: Privacy
+        direction: down
+      - command: hover-text
+        text: Language
+        description: language selection option
+        action: click
+  - prompt: Change the language to another option.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-text
+        text: English
+        description: language selection option
+        action: click
+  - prompt: Change the language to another option.
+    commands:
+      - command: hover-text
+        text: Español
+        description: language selection option
+        action: click
+  - prompt: Assert that the page content reloads in the selected language.
+    commands:
+      - command: assert
+        expect: >-
+          the text "Correo electrónico seguro, inteligente y fácil de usar" is
+          visible
+  - prompt: >-
+      Verify the consistency of the layout and functionality.  # Use the content
+      of the file from the environment
+    commands:
+      - command: hover-text
+        text: Crea una cuenta
+        description: create account button
+        action: click
+      - command: wait
+        timeout: 3000
+      - command: hover-text
+        text: Para trabajar
+        description: for work link
+        action: click
+      - command: wait
+        timeout: 3000
+      - command: hover-text
+        text: Inicia sesión
+        description: sign in button
+        action: click
+      - command: wait
+        timeout: 3000
