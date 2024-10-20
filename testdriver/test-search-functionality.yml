@@ -1,0 +1,46 @@
+version: 4.0.70
+steps:
+  - prompt: Find the search icon or bar.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-text
+        text: Search Google or type a URL
+        description: main google search
+        action: click
+  - prompt: Enter a search query related to Gmail features.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-text
+        text: Search Google or type a URL
+        description: main google search
+        action: click
+      - command: type
+        text: Gmail features
+  - prompt: Submit the search.
+    commands:
+      - command: press-keys
+        keys:
+          - enter
+  - prompt: Submit the search.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-text
+        text: Search Google or type a URL
+        description: main google search
+        action: click
+      - command: type
+        text: Gmail features
+      - command: press-keys
+        keys:
+          - enter
+  - prompt: >-
+      Assert that the search results page loads and displays relevant results. 
+      # Use the content of the file from the environment
+    commands:
+      - command: assert
+        expect: >-
+          the search results page loads and displays relevant results for "Gmail
+          features"
